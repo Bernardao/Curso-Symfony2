@@ -38,7 +38,9 @@ class __TwigTemplate_4085fea573e09952fd9cf653c6850886 extends Twig_Template
     public function block_title($context, array $blocks = array())
     {
         // line 7
-        echo "        Título de la plantilla index del controlador
+        echo "        Título de la plantilla index del controlador con la variable: ";
+        echo twig_escape_filter($this->env, $this->getContext($context, 'variable'), "html");
+        echo "
     ";
     }
 
