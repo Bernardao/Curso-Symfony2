@@ -1,0 +1,19 @@
+{# src/Curso/HolaMundoBundle/Resources/views/Hola/index.html.twig #}
+{# extendemos plantilla base #}
+{% extends "::base.html.twig" %}
+
+    {# cambiamos el título #}
+    {% block title %}
+        Título de la plantilla index del controlador
+    {% endblock %}
+    {% block body %}    
+            {% block contenido %}
+                <div>
+                    <p>Bloque contenido de plantilla index del controlador.</p>
+                    <p>Aquí escribo la variable: <b>{{ variable }}</b>
+                </div>
+            {% endblock %}
+    {% endblock %}    
+    
+    {# Para que nos muestre el código generado en la plantilla #}
+    {% set code = code(_self) %}

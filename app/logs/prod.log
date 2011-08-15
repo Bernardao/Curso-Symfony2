@@ -1,0 +1,2 @@
+[2011-08-15 21:52:00] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /hola/uno" (uncaught exception) at /var/www/sf2/vendor/symfony/src/Symfony/Bundle/FrameworkBundle/EventListener/RouterListener.php line 88 [] []
+[2011-08-15 21:52:01] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /hola/tres" (uncaught exception) at /var/www/sf2/vendor/symfony/src/Symfony/Bundle/FrameworkBundle/EventListener/RouterListener.php line 88 [] []

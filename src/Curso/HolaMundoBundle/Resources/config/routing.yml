@@ -1,0 +1,3 @@
+Hola:
+    pattern:  /hola/{variable}
+    defaults: { _controller: CursoHolaMundoBundle:Default:index }
